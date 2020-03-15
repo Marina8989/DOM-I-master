@@ -64,3 +64,16 @@ nav.appendChild(a3);
 nav.appendChild(a4);
 nav.appendChild(a5);
 nav.appendChild(a6);
+
+//adding text and image to header section
+const divText = document.getElementById('cta-text');
+const h1 = document.getElementById('h1');
+const bnt = document.getElementById('btn');
+const ctaImg = document.getElementById('cta-img');
+
+h1.innerHTML = '<h1>DOM <br> IS<br> AWESOME</h1>';
+bnt.textContent = 'Get Started';
+ctaImg.src = '../img/header-img.png';
+
+divText.appendChild(h1);
+divText.appendChild(bnt);
