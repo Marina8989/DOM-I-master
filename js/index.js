@@ -87,21 +87,65 @@ const topTwo = document.getElementById('top-two');
 const h41 = document.getElementById('about');
 const p11 = document.getElementById('aboutPar');
 const topContent = document.getElementById('top-content');
-topContent.style.display = 'flex';
+
 
 
 h4.textContent = 'FEATURES';
 p1.textContent = 'Features content elementum mango eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornaer nisil. Nullan convallis augue justo, at imperdiet metus scielerisque quis.';
 h41.textContent = 'ABOUT';
 p11.textContent = 'About content elementum mango eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornaer nisil. Nullan convallis augue justo, at imperdiet metus scielerisque quis.';
-
+topContent.style.display = 'flex';
 
 topOne.appendChild(h4);
 topOne.appendChild(p1);
-topOne.appendChild(h41);
-topOne.appendChild(p11);
+topTwo.appendChild(h41);
+topTwo.appendChild(p11);
+
 
 //middle image
 
 const middleImg = document.getElementById('middle-img');
 middleImg.src = "../img/mid-page-accent.jpg";
+
+//bottom content
+const bottomContent = document.getElementById('bottom-content');
+const mainContent = document.getElementById('main-content');
+
+const textContent = document.getElementById('text-content');
+const contentOne = document.getElementById('contentOne');
+const contentPOne = document.getElementById('contentPOne');
+
+const textContent2 = document.getElementById('text-content2');
+const contentTwo = document.getElementById('contentTwo');
+const contentPTwo = document.getElementById('contentPTwo');
+
+const textContent3 = document.getElementById('text-content3');
+const contentThree = document.getElementById('contentThree');
+const contentPThree = document.getElementById('contentPThree');
+
+
+contentOne.textContent = 'SERVICES';
+contentPOne.textContent = 'Services content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu orname nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
+
+contentTwo.textContent = 'PRODUCT';
+contentPTwo.textContent = 'Product content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu orname nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
+
+contentThree.textContent = 'VISION';
+contentPThree.textContent = 'Vision content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu orname nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
+
+bottomContent.style.display = 'flex';
+
+textContent.appendChild(contentOne);
+textContent.appendChild(contentPOne);
+
+textContent2.appendChild(contentTwo);
+textContent2.appendChild(contentPTwo);
+
+textContent3.appendChild(contentThree);
+textContent3.appendChild(contentPThree);
+
+
+
+bottomContent.appendChild(textContent);
+bottomContent.appendChild(textContent2);
+bottomContent.appendChild(textContent3);
