@@ -144,8 +144,24 @@ textContent2.appendChild(contentPTwo);
 textContent3.appendChild(contentThree);
 textContent3.appendChild(contentPThree);
 
-
-
 bottomContent.appendChild(textContent);
 bottomContent.appendChild(textContent2);
 bottomContent.appendChild(textContent3);
+
+// contact
+
+const contact = document.querySelector('.contact');
+const contactH4 = document.querySelector('.contact h4');
+const contactP1 = document.querySelector('#p1');
+const contactP2 = document.querySelector('#p2');
+const contactP3 = document.querySelector('#p3');
+
+contactH4.textContent = 'CONTACT';
+contactP1.innerHTML = '<p>123 Way 456 Street <br> Somewhere, USA</p>';
+contactP2.textContent = '1(888) 888-8888';
+contactP3.textContent = 'sales@greatidea.io';
+
+//footer
+const footerP = document.querySelector('#footerP');
+
+footerP.textContent = 'Copyright Great Idea 2018';
