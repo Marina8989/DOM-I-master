@@ -77,3 +77,15 @@ ctaImg.src = '../img/header-img.png';
 
 divText.appendChild(h1);
 divText.appendChild(bnt);
+
+//main content
+
+const topOne = document.getElementById('top-one');
+const h4 = document.getElementById('features');
+const p1 = document.getElementById('featuresPar');
+
+h4.textContent = 'FEATURES';
+p1.textContent = 'Features content elementum mango eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornaer nisil. Nullan convallis augue justo, at imperdiet metus scielerisque quis.';
+
+topOne.appendChild(h4);
+topOne.appendChild(p1);
