@@ -83,9 +83,25 @@ divText.appendChild(bnt);
 const topOne = document.getElementById('top-one');
 const h4 = document.getElementById('features');
 const p1 = document.getElementById('featuresPar');
+const topTwo = document.getElementById('top-two');
+const h41 = document.getElementById('about');
+const p11 = document.getElementById('aboutPar');
+const topContent = document.getElementById('top-content');
+topContent.style.display = 'flex';
+
 
 h4.textContent = 'FEATURES';
 p1.textContent = 'Features content elementum mango eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornaer nisil. Nullan convallis augue justo, at imperdiet metus scielerisque quis.';
+h41.textContent = 'ABOUT';
+p11.textContent = 'About content elementum mango eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornaer nisil. Nullan convallis augue justo, at imperdiet metus scielerisque quis.';
+
 
 topOne.appendChild(h4);
 topOne.appendChild(p1);
+topOne.appendChild(h41);
+topOne.appendChild(p11);
+
+//middle image
+
+const middleImg = document.getElementById('middle-img');
+middleImg.src = "../img/mid-page-accent.jpg";
